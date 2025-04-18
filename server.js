@@ -122,4 +122,4 @@ const requestListener = (request,response) => {
 }
 
 //帶入函式「requestListener」並執行；利用函式「.listen()」監聽請求
-http.createServer(requestListener).listen(process.env.PORT || 3005); //本地端用「3005」測試；部屬在Render增加指令「process.env.PORT」
+http.createServer(requestListener).listen(process.env.PORT || 3005); //本地端用「3005」；部屬在雲端平台增加指令「process.env.PORT」
